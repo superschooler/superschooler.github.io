@@ -10,7 +10,7 @@ body {
   background-color: var(--light-gray);
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   height: 100vh;
   width: 100vw;
   margin: 0;
@@ -36,7 +36,7 @@ p {
   max-width: 300px;
   background-color: var(--white);
   padding: 17px 17px 45px 17px;
-  margin: 50px 17px 17px 17px;
+  margin: 17px;
   border-radius: 20px;
   box-shadow: 1px 1px 25px var(--gray-blue);
 }
@@ -44,4 +44,13 @@ p {
 img {
   width: 100%;
   border-radius: 10px;
+}
+
+@media (max-width: 700px) {
+  body {
+    align-items: flex-start;
+  }
+  .qr-container {
+    margin: 50px 17px 17px 17px;
+  }
 }
