@@ -24,8 +24,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [brianschooler.com/projects/frontend-mentor/qr-code](brianschooler.com/projects/frontend-mentor/qr-code)
-- Live Site URL: [brianschooler.com/projects/frontend-mentor/qr-code](brianschooler.com/projects/frontend-mentor/qr-code)
+- Solution URL: [https://www.frontendmentor.io/solutions/qr-code-component-solution-O0WN4m7diP](https://www.frontendmentor.io/solutions/qr-code-component-solution-O0WN4m7diP)
+- Live Site URL: [https://superschooler.github.io/qr-code/index.html](https://superschooler.github.io/qr-code/index.html)
 
 ## My process
 
