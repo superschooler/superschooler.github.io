@@ -35,9 +35,8 @@ p {
 .qr-container {
   max-width: 300px;
   background-color: var(--white);
-  padding: 17px;
+  padding: 17px 17px 45px 17px;
   margin: 17px;
-  height: 78vh;
   border-radius: 20px;
 }
 
