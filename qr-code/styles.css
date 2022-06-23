@@ -38,6 +38,7 @@ p {
   padding: 17px 17px 45px 17px;
   margin: 50px 17px 17px 17px;
   border-radius: 20px;
+  box-shadow: 1px 1px 25px var(--gray-blue);
 }
 
 img {
