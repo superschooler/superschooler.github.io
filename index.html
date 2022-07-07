@@ -3,31 +3,78 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <title>Frontend Mentor | QR code component</title>
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Brian Schooler Portfoio</title>
   </head>
   <body>
-    <main class="qr-container">
-      <img src="images/image-qr-code.png" alt="QR Code" />
-      <h1>Improve your front-end skills by building projects</h1>
-      <p>
-        Scan the QR code to visit Frontend Mentor and take your coding skills to
-        the next level
-      </p>
+    <!-- Header -->
+    <header>
+      <!-- Hamburger Menu for Mobile -->
+      <div class="menu-btn">
+        <span class="menu-btn__burger"></span>
+      </div>
+      <!-- Navigation Links -->
+      <nav class="nav">
+        <ul class="menu-nav">
+          <li class="menu-nav__item">
+            <a href="index.html" class="menu-nav__link">Home</a>
+          </li>
+          <li class="menu-nav__item">
+            <a href="about.html" class="menu-nav__link">About Me</a>
+          </li>
+          <li class="menu-nav__item">
+            <a href="projects.html" class="menu-nav__link">My Projects</a>
+          </li>
+          <li class="menu-nav__item">
+            <a href="contact.html" class="menu-nav__link">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <section class="home">
+        <h2>Hi! My Name Is</h2>
+        <h1 class="home__name">
+          Brian <span class="home__name--last">Schooler</span>
+        </h1>
+        <h2>Web Developer</h2>
+
+        <!-- Social Icons -->
+        <div class="social-icons">
+          <a href="#!">
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+          <a href="#!">
+            <i class="fab fa-linkedin fa-2x"></i>
+          </a>
+          <a href="#!">
+            <i class="fab fa-twitter fa-2x"></i>
+          </a>
+          <a href="#!">
+            <i class="fab fa-facebook fa-2x"></i>
+          </a>
+          <a href="#!">
+            <i class="fab fa-instagram fa-2x"></i>
+          </a>
+        </div>
+
+        <!-- Footer -->
+        <footer>&copy; Copyright 2022</footer>
+      </section>
     </main>
+
+    <!-- FontAwesome -->
+    <script
+      src="https://kit.fontawesome.com/c80129e9d7.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Javascript -->
+    <script src="js/main.js"></script>
   </body>
 </html>
