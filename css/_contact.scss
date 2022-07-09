@@ -1,0 +1,44 @@
+.contact {
+  height: 100%;
+  padding-top: 40vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(
+      to right,
+      rgba($primary-color, 0.9),
+      rgba($primary-color, 0.3)
+    ),
+    url("../images/brian.jpg") right center;
+  background-size: cover;
+
+  h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    font-size: 1.5rem;
+  }
+
+  .social-icons {
+    position: initial;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .home {
+    background: linear-gradient(
+        to left,
+        rgba($primary-color, 0.9),
+        rgba($primary-color, 0.3)
+      ),
+      url("../images/brian-desktop.jpg") left center;
+    background-size: cover;
+  }
+}

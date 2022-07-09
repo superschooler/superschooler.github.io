@@ -9,30 +9,18 @@
       rgba($primary-color, 0.9),
       rgba($primary-color, 0.3)
     ),
-    url("../images/brian.jpg") center center;
+    url("../images/brian.jpg") right center;
   background-size: cover;
 
   &__name {
     font-size: 5rem;
     padding-bottom: 1rem;
-    margin-top: 1rem;
-    border-bottom: 2px solid #fff;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid set-text-color($primary-color);
 
     &--last {
       color: $secondary-color;
       font-weight: 700;
     }
-  }
-}
-
-@media screen and (min-width: 700px) {
-  .home {
-    background: linear-gradient(
-        to left,
-        rgba($primary-color, 0.9),
-        rgba($primary-color, 0.3)
-      ),
-      url("../images/brian-desktop.jpg") left center;
-    background-size: cover;
   }
 }
